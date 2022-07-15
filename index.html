@@ -31,6 +31,11 @@
                         input.style.backgroundColor = "green";
                         message_field.innerHTML = "Correct!";
                     }
+                    else if (input.value == "Russia")
+                    {
+                        input.style.backgroundColor = "yellow";
+                        message_field.innerHTML = "Correct, however, if you are from Ukraine it should be written in lowercase";
+                    }
                     else
                     {
                         input.style.backgroundColor = "red";
